@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/space_bg">
+
+    <!-- Subtle radial vignette for depth -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/splash_vignette"
+        android:scaleType="fitXY"
+        android:alpha="0.65"/>
+
+    <FrameLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:background="@drawable/circle_mask"
+        android:padding="12dp">
+
+        <ImageView
+            android:id="@+id/imageLogo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            android:src="@drawable/logo"
+            android:contentDescription="@string/app_name" />
+    </FrameLayout>
+</FrameLayout>

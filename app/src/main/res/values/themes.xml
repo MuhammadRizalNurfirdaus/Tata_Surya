@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Tata_Surya" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:colorBackground">@color/space_bg</item>
+        <item name="colorSurface">@color/space_surface</item>
+        <item name="colorPrimary">@color/space_accent</item>
+        <item name="colorOnPrimary">@color/space_text_primary</item>
+        <item name="colorOnBackground">@color/space_text_primary</item>
+        <item name="android:textColor">@color/space_text_primary</item>
+    </style>
+
+    <style name="Theme.Tata_Surya" parent="Base.Theme.Tata_Surya" />
+</resources>

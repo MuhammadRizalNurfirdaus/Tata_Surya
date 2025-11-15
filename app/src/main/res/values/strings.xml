@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Katalog Tata Surya</string>
+    <string name="about_text">Katalog Tata Surya adalah aplikasi pembelajaran yang menampilkan informasi ringkas tentang objek-objek di Tata Surya. Data yang disajikan mencakup nama, diameter, periode orbit, jarak dari Matahari, dan satelit yang dimiliki. Tujuan aplikasi ini adalah membantu pengguna mengenal karakteristik dasar planet dan benda langit secara cepat dalam antarmuka yang ringan dan mudah digunakan. Aplikasi ini bersifat non-komersial untuk keperluan pembelajaran.</string>
+    <string name="label_developer">Pengembang</string>
+    <string name="label_email">Email</string>
+    <string name="developer_name">Muhammad Rizal Nurfirdaus</string>
+    <string name="developer_email">muhammadrizalnurfirdaus@gmail.com</string>
+    <string name="label_mass">Massa: %1$s</string>
+    <string name="label_diameter">Diameter: %1$s km</string>
+    <string name="label_orbit">Periode Orbit: %1$s</string>
+    <string name="label_distance">Jarak dari Matahari: %1$s km</string>
+    <string name="label_satellites">Satelit: %1$s</string>
+    <string name="label_no_satellite">-</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_about">About</string>
+    <string name="share_template">Tahukah Anda? %1$s memiliki diameter %2$s km. Cek info lainnya di aplikasi Katalog Tata Surya!</string>
+</resources>
