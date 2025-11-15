@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base ShapeAppearance (rounded corners) with explicit Material3 parent -->
+    <style name="ShapeAppearance.TataSurya" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <!-- Circle ShapeAppearance for profile image with explicit Material3 parent -->
+    <style name="ShapeAppearance.TataSurya.Circle" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

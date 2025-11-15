@@ -55,14 +55,14 @@
                 android:id="@+id/textSatCount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="6dp"
-                android:background="@color/space_surface"
+                android:background="@drawable/badge_satellite"
                 android:textColor="@color/space_text_primary"
                 android:textSize="12sp"
                 android:textStyle="bold"
                 android:minWidth="40dp"
                 android:gravity="center"
-                android:layout_marginStart="8dp" />
+                android:layout_marginStart="8dp"
+                android:contentDescription="Jumlah satelit" />
         </LinearLayout>
 
         <TextView
@@ -75,14 +75,16 @@
 
         <ImageView
             android:id="@+id/actionShare"
-            android:layout_width="32dp"
-            android:layout_height="32dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:src="@android:drawable/ic_menu_share"
-            android:contentDescription="@string/menu_share"
-            android:layout_marginTop="8dp"
-            android:background="@color/space_surface"
-            android:padding="4dp" />
-
+            android:contentDescription="Bagikan info objek"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ripple_accent"
+            android:padding="8dp"
+            android:scaleType="centerInside"
+            android:clickable="true"
+            android:focusable="true"/>
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>
